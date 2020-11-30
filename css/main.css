@@ -16,18 +16,70 @@ p, li, textarea, label, input, select {
 
 
 h1 {
+    padding: 20px;
+    background-color: #fcce00; 
+    color: white;
+    text-align: center;
+    font-size: 88px;
+    font-family: poppins-black;
+    margin: 2px;
+  
+  }
    /* Default font, size, and margins */
-}
 
 h2 {
+  Padding: 20px;
+  background-color:#ff6b00;
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  margin: 2px;
+  border: white;
+  font-family: poppins-black;
+  
+
   /* Default font, size, and margins */
+}
+.header__deco--red {
+  background-color: #e02020;
+  width: 1440px;
+  height: 32px;
+  margin: 2px;
+  border: 1px white;
+  font-family: poppins-black;
+}
+
+.header__deco--purple {
+  background-color: #b620e0;
+  width: 1440px;
+  height: 16px;
+  margin: 2px;
+  border: 1px white;
+  font-family: poppins-black;
+}
+
+.header__deco--blue {
+    background-color: #6236ff;
+    width: 1440px;
+    height: 8px;
+    margin: 2px;
+    border: 1px white;
+    font-family: poppins-black;
 }
 
 h3 {
+  text-align: center;
+  color : #231f20;
+  font-size: 40px;
+
   /* Default font, size, and margins */
 }
 
+
+}
 h4 {
+  font-family: poppins-black;
+  text-align: center;
   /* Default font, size, and margins */
 }
 
