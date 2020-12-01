@@ -99,22 +99,33 @@ flex-grow: 1;
   font-family: poppins;
   /* Default font, size, and margins */
 }
-
+.block1-content{
+  padding: 32px 32px 32px 32px;
+}
 
 .block1-text{
   text-align: center;
-  text-align: justify;
   color: #231f20;
   font-family: poppins;
   font-size: 16px;
   padding: 32px 32px 32px 32px;
 }
 
-.block1-image {
-  padding: 32px 32px 32px 32px;
+.block1-image { 
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+  
 }
 
 .block1-illu{
+  background-image: url( ../img/bg-yellow.png );
+  background-position: left bottom;
+  background-size: auto 100%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 
 }
 
@@ -147,6 +158,21 @@ flex-grow: 1;
   padding: 32px 32px 32px 32px;
 }
 
+.block2-image { 
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+
+.block2-illu {
+  background-image: url(../img/bg-orange.png);
+  background-position: left bottom;
+  background-size: auto 100%;
+  
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  
+  }
 
 
 h4 {
