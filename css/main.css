@@ -26,7 +26,7 @@ p, li, textarea, label, input, select {
     font-size: 88px;
     font-family: poppins;
     margin: 2px;
-    width: 1440px;
+    width: 2000px;
   
   }
    /* Default font, size, and margins */
@@ -40,14 +40,14 @@ p, li, textarea, label, input, select {
   margin: 2px;
   border: white;
   font-family: poppins;
-  width: 1440px;
+  width: 2000px;
   
 
   /* Default font, size, and margins */
 }
 .header__deco--red {
   background-color: #e02020;
-  width: 1440px;
+  width: 2000px;
   height: 32px;
   margin: 2px;
   border: 1px white;
@@ -56,7 +56,7 @@ p, li, textarea, label, input, select {
 
 .header__deco--purple {
   background-color: #b620e0;
-  width: 1440px;
+  width: 2000px;
   height: 16px;
   margin: 2px;
   border: 1px white;
@@ -65,7 +65,7 @@ p, li, textarea, label, input, select {
 
 .header__deco--blue {
     background-color: #6236ff;
-    width: 1440px;
+    width: 2000px;
     height: 8px;
     margin: 2px;
     border: 1px white;
@@ -81,7 +81,6 @@ p, li, textarea, label, input, select {
 
 .block1 {
   display: flex;
-  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -100,7 +99,7 @@ flex-grow: 1;
   /* Default font, size, and margins */
 }
 .block1-content{
-  padding: 32px 32px 32px 32px;
+  padding: 0px 32px 32px 32px;
 }
 
 .block1-text{
@@ -132,7 +131,8 @@ flex-grow: 1;
 .block2 {
   display: flex;
   max-width: 720px;
-
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
@@ -186,25 +186,18 @@ flex-grow: 1;
 
 .flexbox-container-1{
   background-image: url(../img/bg-red.png);
-  display: flex;
-  mix-blend-mode: darken;
 }
 .flexbox-container-2{
   background-image: url(../img/bg-violet.png);
-  display: flex;
-  mix-blend-mode: darken;
 }
 .flexbox-container-3{
-  background-image: url(..//img/bg-blue.png);
-  display: flex;
-  mix-blend-mode: darken;
+  background-image: url(../img/bg-blue.png);
 }
 
 h4 {
   text-align: left;
   color: #231f20;
   font-size: 24px;
-  
   /* Default font, size, and margins */
 
 }
