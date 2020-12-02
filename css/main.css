@@ -129,20 +129,16 @@ flex-grow: 1;
 }
 
 .block2 {
-  display: flex;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  max-width: 70%;
+  mix-blend-mode: darken
   
 }
 
 .block2-content,
   .block2-illu {
-    flex-basis: 320px;
-    flex-grow: 1;
-    width: 554px;
-    height: 512px;
-    
+ flex-basis: 320px;
+flex-grow: 1;  
 }
 
 .block2-titre {
@@ -159,11 +155,11 @@ flex-grow: 1;
 
 
 .block2-text{
-  text-align: right;
+  text-align: center;
   color: #231f20;
   font-family: poppins;
   font-size: 16px;
-  padding: 0px 32px 32px 32px;
+  padding: 32px 32px 32px 32px;
 
 }
 
@@ -184,8 +180,14 @@ flex-grow: 1;
   height: 512px; 
 }
 
+
+.rectangle-content{
+  display: flex;
+
+}
 .flexbox-container-1{
   background-image: url(../img/bg-red.png);
+
 }
 .flexbox-container-2{
   background-image: url(../img/bg-violet.png);
