@@ -183,8 +183,8 @@ flex-grow: 1;
 
 .rectangle-content{
   display: flex;
-
 }
+
 .flexbox-container-1{
   background-image: url(../img/bg-red.png);
 
@@ -192,8 +192,19 @@ flex-grow: 1;
 .flexbox-container-2{
   background-image: url(../img/bg-violet.png);
 }
+
 .flexbox-container-3{
   background-image: url(../img/bg-blue.png);
+}
+
+.feature-1{
+  mix-blend-mode: darken;
+}
+.feature-2{
+  mix-blend-mode: darken;
+}
+.feature-3{
+  mix-blend-mode: darken;
 }
 
 h4 {
